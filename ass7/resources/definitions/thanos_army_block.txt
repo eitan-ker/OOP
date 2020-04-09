@@ -1,0 +1,23 @@
+# default values for blocks
+
+
+# block definitions
+bdef symbol:b height:71 width:75 hit_points:2 fill:image(block_images/chitauri.jpg)
+
+bdef symbol:a height:100 width:120 hit_points:3 fill:image(block_images/3.jpg)
+bdef symbol:e height:100 width:120 hit_points:6 fill:image(block_images/4.jpg)
+bdef symbol:c height:100 width:120 hit_points:8 fill-8:image(block_images/1.2.jpg) fill-7:image(block_images/1.2.jpg) fill-6:image(block_images/1.2.jpg) fill-5:image(block_images/1.2.jpg) fill-4:image(block_images/1.1.jpg) fill-3:image(block_images/1.1.jpg) fill-2:image(block_images/1.1.jpg) fill-1:image(block_images/1.1.jpg)
+bdef symbol:d height:100 width:120 hit_points:8 fill-8:image(block_images/2.2.jpg) fill-7:image(block_images/2.2.jpg) fill-6:image(block_images/2.2.jpg) fill-5:image(block_images/2.2.jpg) fill-4:image(block_images/2.1.jpg) fill-3:image(block_images/2.1.jpg) fill-2:image(block_images/2.1.jpg) fill-1:image(block_images/2.1.jpg)
+bdef symbol:x height:200 width:245 hit_points:15 fill:image(block_images/thanos1.jpg)
+
+bdef symbol:y height:200 width:245 hit_points:15 fill:image(block_images/thanos2.jpg)
+
+bdef symbol:z height:200 width:245 hit_points:15 fill:image(block_images/thanos3.jpg)
+
+bdef symbol:w height:200 width:245 hit_points:15 fill:image(block_images/thanos4.jpg)
+
+
+
+# spacers definitions
+
+sdef symbol:- width:50
